@@ -5,15 +5,15 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2348165846414"
-global.ownername = "𝑻𝒐𝒙𝒙𝒊𝒄 𝑩𝒐𝒚"
-global.ytname = "YT: ToxxicTech"
+global.ownernomer = "525569354950"
+global.ownername = "𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴"
+global.ytname = "𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴"
 global.socialm = "GitHub: Toxic1239"
-global.location = "Nigeria"
+global.location = "canada"
 
-global.ownernumber = '2348165846414'  //creator number
-global.ownername = '𝑻𝒐𝒙𝒙𝒊𝒄 𝑻𝒆𝒄𝒉' //owner name
-global.botname = '𝒁𝒆𝒏𝒐𝒏 𝒁𝒐𝒈𝒓𝒂𝒕𝒊𝒔' //name of the bot
+global.ownernumber = '525569354950'  //creator number
+global.ownername = '𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴' //owner name
+global.botname = '𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴' //name of the bot
 
 // MENU TYPE
 /* Rules
@@ -29,18 +29,18 @@ global.typemenu = 'v1'
 
 
 //sticker details
-global.packname = '𝒁𝒆𝒏𝒐𝒏 𝑾𝒊𝒍𝒍 𝑪𝒓𝒂𝒔𝒉 𝑨𝒍𝒍'
-global.author = '𝑴𝒂𝒅𝒆 𝑩𝒚 𝑻𝒐𝒙𝒙𝒊𝒄'
+global.packname = '𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴'
+global.author = '𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴'
 
 //console view/theme
-global.themeemoji = '🤯'
+global.themeemoji = '🧍🏽‍♂️'
 global.wm = "Toxxic Tech."
 
 //theme link
 global.link = 'https://whatsapp.com/channel/0029Vao1R2n9sBIC9sPhvI1P'
 
 //custom prefix
-global.prefa = ['','.']
+global.prefa = ['.']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
@@ -60,14 +60,14 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 //reply messages
 global.mess = {
     done: '𝑻𝒂𝒔𝒌 𝑫𝒐𝒏𝒆 𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍𝒍𝒚!',
-    prem: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝑼𝒔𝒆𝒓𝒔',
+    prem: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴',
     admin: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑨𝒅𝒎𝒊𝒏𝒔 𝑶𝒏𝒍𝒚',
     botAdmin: '𝒁𝒆𝒏𝒐𝒏 𝑴𝒖𝒔𝒕 𝑩𝒆 𝑨𝒅𝒎𝒊𝒏 𝑭𝒊𝒓𝒔𝒕',
-    owner: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑶𝒘𝒏𝒆𝒓 𝑶𝒏𝒍𝒚',
+    owner: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴 𝑶𝒏𝒍𝒚',
     group: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑮𝒓𝒐𝒖𝒑 𝑪𝒉𝒂𝒕 𝑶𝒏𝒍𝒚',
-    private: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑷𝒓𝒊𝒗𝒂𝒕𝒆 𝑪𝒉𝒂𝒕 𝑶𝒏𝒍𝒚',
-    wait: '𝑳𝒐𝒂𝒅𝒊𝒏𝒈...',    
-    error: '𝑬𝒓𝒓𝒐𝒓 𝑯𝒂𝒔 𝑶𝒄𝒄𝒖𝒓𝒓𝒆𝒅',
+    private: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝐺𝑅𝛩𝛩𝛻𝑌 𝚩𝚫𝚻𝚳𝚫𝚴 𝑶𝒏𝒍𝒚',
+    wait: 'tann...',    
+    error: 'koko manmanw wap bwase an',
 }
 
 global.thumb = fs.readFileSync('./ZenonFiles/thumb.jpg')
